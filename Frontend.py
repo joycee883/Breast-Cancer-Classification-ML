@@ -19,7 +19,7 @@ def set_background(image_file):
     """
     st.markdown(background_image, unsafe_allow_html=True)
 # Call the function to set the background
-set_background(r"C:\Users\91939\Desktop\AI&DS\GITHUB REPOSITORIES\BreastCancerClassification\breastcancer.png")
+set_background(r"C:\Users\91939\Desktop\AI&DS\GITHUB REPOSITORIES\BreastCancerClassification\image.png")
 # Dictionary to map model names to their file paths
 model_files = {
     'K-Nearest Neighbors': r'C:\Users\91939\Desktop\AI&DS\GITHUB REPOSITORIES\BreastCancerClassification\knn_breastcancer.pkl',
