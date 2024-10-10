@@ -19,18 +19,18 @@ def set_background(image_file):
     """
     st.markdown(background_image, unsafe_allow_html=True)
 # Call the function to set the background
-set_background(r"C:\Users\91939\Desktop\AI&DS\Data science projects\Project33_kNNclassifierBreastCancerTutorial\breastcancer.png")
+set_background(r"C:\Users\91939\Desktop\AI&DS\GITHUB REPOSITORIES\BreastCancer_Classification\breastcancer.png")
 # Dictionary to map model names to their file paths
 model_files = {
-    'K-Nearest Neighbors': r'C:\Users\91939\Desktop\AI&DS\Data science projects\Project33_kNNclassifierBreastCancerTutorial\knn_breast_cancer.pkl',
-    'Logistic Regression': r'C:\Users\91939\Desktop\AI&DS\Data science projects\Project33_kNNclassifierBreastCancerTutorial\logistic_regression_breast_cancer.pkl',
-    'Decision Tree': r'C:\Users\91939\Desktop\AI&DS\Data science projects\Project33_kNNclassifierBreastCancerTutorial\decision_tree_breast_cancer.pkl',
-    'Random Forest': r'C:\Users\91939\Desktop\AI&DS\Data science projects\Project33_kNNclassifierBreastCancerTutorial\random_forest_breast_cancer.pkl',
-    'SVC': r'C:\Users\91939\Desktop\AI&DS\Data science projects\Project33_kNNclassifierBreastCancerTutorial\svc_breast_cancer.pkl'
+    'K-Nearest Neighbors': r'C:\Users\91939\Desktop\AI&DS\GITHUB REPOSITORIES\BreastCancer_Classification\knn_breast_cancer.pkl',
+    'Logistic Regression': r'C:\Users\91939\Desktop\AI&DS\GITHUB REPOSITORIES\BreastCancer_Classification\logistic_regression_breast_cancer.pkl',
+    'Decision Tree': r'C:\Users\91939\Desktop\AI&DS\GITHUB REPOSITORIES\BreastCancer_Classification\decision_tree_breast_cancer.pkl',
+    'Random Forest': r'C:\Users\91939\Desktop\AI&DS\GITHUB REPOSITORIES\BreastCancer_Classification\random_forest_breast_cancer.pkl',
+    'SVC': r'C:\Users\91939\Desktop\AI&DS\GITHUB REPOSITORIES\BreastCancer_Classification\svc_breast_cancer.pkl'
 }
 
 # Load the saved scaler
-scaler = pickle.load(open(r'C:\Users\91939\Desktop\AI&DS\Data science projects\Project33_kNNclassifierBreastCancerTutorial\scaler.pkl', 'rb'))
+scaler = pickle.load(open(r'C:\Users\91939\Desktop\AI&DS\GITHUB REPOSITORIES\BreastCancer_Classification\scaler.pkl', 'rb'))
 
 st.header("Breast Cancer Predictor🩺")
 
