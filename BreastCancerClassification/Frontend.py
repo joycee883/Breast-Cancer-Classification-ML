@@ -4,22 +4,7 @@ import numpy as np
 import base64  # Don't forget to import base64!
 from PIL import Image
 
-def set_background(image_file):
-    with open(image_file, "rb") as f:
-        data = f.read()
-        encoded_image = base64.b64encode(data).decode()
 
-    background_image = f"""
-    <style>
-    .stApp {{
-        background-image: url("data:image/png;base64,{encoded_image}");
-        background-size: cover;
-    }}
-    </style>
-    """
-    st.markdown(background_image, unsafe_allow_html=True)
-# Call the function to set the background
-set_background(r"C:\Users\91939\Desktop\AI&DS\GITHUB REPOSITORIES\BreastCancerClassification\image.png")
 # Dictionary to map model names to their file paths
 model_files = {
     'K-Nearest Neighbors': r'C:\Users\91939\Desktop\AI&DS\GITHUB REPOSITORIES\BreastCancerClassification\knn_breastcancer.pkl',
