@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC  # Import SVC
 
 # 1. Load dataset
-df = pd.read_csv(r'C:\Users\91939\Desktop\AI&DS\Data science projects\Project33_kNNclassifierBreastCancerTutorial\brest cancer.txt', header=None)
+df = pd.read_csv(r'C:\Users\91939\Desktop\AI&DS\GITHUB REPOSITORIES\BreastCancer_Classification\brest cancer.txt', header=None)
 
 # 2. Rename columns
 df.columns = ['Id', 'Clump_thickness', 'Uniformity_Cell_Size', 'Uniformity_Cell_Shape', 'Marginal_Adhesion', 
